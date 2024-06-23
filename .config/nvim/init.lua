@@ -28,7 +28,7 @@ require("lazy").setup({
     config = function()
       require("lualine").setup({
         icons_enabled = false,
-        theme = "onedark",
+        theme = "lavi",
         sections = {
           lualine_b = { "filename" },
           lualine_c = { "branch", "diff" },

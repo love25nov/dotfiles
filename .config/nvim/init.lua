@@ -385,13 +385,6 @@ require("lazy").setup({
 
   "rcarriga/nvim-notify",
 
-  {
-    "windwp/nvim-autopairs",
-    config = function()
-      require("nvim-autopairs").setup({})
-    end,
-  },
-
   -- Plug 'integralist/vim-mypy'
 
   "sk1418/HowMuch",

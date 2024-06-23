@@ -1,3 +1,5 @@
+vim.cmd([[autocmd VimLeave * set guicursor=a:ver25-Cursor-blinkwait700-blinkon400-blinkoff250]])
+
 vim.g.loaded_netrw = 0
 vim.g.loaded_netrwPlugin = 0
 

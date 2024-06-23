@@ -204,20 +204,11 @@ require("lazy").setup({
   },
 
   -- Theme
+  "rktjmp/lush.nvim",
   {
-    "navarasu/onedark.nvim",
+    "b0o/lavi.nvim",
     config = function()
-      require("onedark").setup({
-        style = "darker",
-        colors = {
-          grey = "#878787", -- define a new color
-          green = "#00ffaa", -- redefine an existing color
-        },
-        highlights = {
-          Visual = { bg = "#4a4a4a" },
-        },
-      })
-      require("onedark").load()
+      vim.cmd([[colorscheme lavi]])
     end,
   },
 

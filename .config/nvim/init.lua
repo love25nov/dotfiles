@@ -396,6 +396,8 @@ require("lazy").setup({
   "nvim-treesitter/playground",
 
   "kevinhwang91/promise-async",
+
+  "philj56/vim-asm-indent",
 })
 
 local function autocmd(group, cmds, clear)
